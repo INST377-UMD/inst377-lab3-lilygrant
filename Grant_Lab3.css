@@ -1,0 +1,89 @@
+#body {
+    background-color: rgb(255, 193, 237);
+}
+#top {
+    text-align: center;
+    background-color: rgb(232, 106, 181);
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10 px;
+    clear: both;
+}
+
+.content {
+    display:flex;
+    width: 100%;
+    float: left;
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.content-box {
+    background-color: rgb(240, 138, 238);
+    color: rgb(9, 9, 9);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    width: 70%
+}
+
+/* Navigation stuff */
+#main-nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover {
+    background-color: purple;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: rgb(145, 243, 107);
+    float: left;
+    padding: 0;
+}
+
+#namebox {
+    width: 100px; 
+    transition: width 0.3s ease; 
+}
+
+#namebox:focus {
+    width: 200px; 
+}
+
+.explanation {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    width: 25%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+.explanation:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid pink
+}
